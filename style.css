@@ -1,0 +1,171 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #282c34;
+}
+
+nav {
+    background-color: rgb(0, 0, 104);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: white; /* Ensure the text color is white */
+}
+
+a:hover .items {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+img {
+    width: 300px;
+    display: flex;
+    justify-content: left;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    padding: 5px;
+    flex: 1; /* Allow the element to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#right {
+    margin-left: auto; /* Push the element to the right */
+    padding: 5px;
+}
+
+#github {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-100%);
+}
+
+#resume {
+    display: flex;
+    justify-content: end;
+    transform: translateY(-190%);
+
+}
+
+#me {
+    font-size: 30px;
+    color: white;
+    border-radius: 35px;
+    border: solid green;
+    background-color: blue;
+}
+
+#pictures_of_me {
+    display: flex;
+    justify-content: space-around;
+}
+
+#courses {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-170%);
+    font-weight: bolder;
+    font-style: oblique;
+    
+
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-320%);
+}
+
+#title_2{
+    display: flex;
+   
+}
+
+#regular_courses {
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#school_title{
+    display: flex;
+    justify-content: center;
+}
+
+#club_title {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-100%);
+    font-size: large;
+}
+
+.clubs {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-30%);
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    color: white;
+    border-radius: 25px;
+    border: solid green;
+    background-color: blue;
+}
+
+#major {
+    display: flex;
+    justify-content: right;
+    transform: translateY(-1150%);
+}
+
+#gpa {
+    display: flex;
+    justify-content: right;
+    transform: translateY(-1200%);
+}
+
+.game {
+    color: white;
+    border-radius: 25px;
+    border: solid orange;
+    background-color: blue;
+    display: flex;
+    justify-content: left;
+}
+
+#game_title {
+    color: orange;
+    transform: translateY(10%);
+}
+
+.registration {
+    color: yellow;
+    border-radius: 25px;
+    border: solid green;
+    background-color: red;
+}
+
+#registration_title {
+    color: aqua;
+}
