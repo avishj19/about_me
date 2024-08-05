@@ -57,20 +57,22 @@ img {
 }
 
 #github {
-    display: flex;
-    justify-content: center;
-    transform: translateY(-100%);
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -70%);
 }
 
 #resume {
-    display: flex;
-    justify-content: end;
-    transform: translateY(-190%);
-
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translateY(-70%);
 }
 
+
 #me {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     border-radius: 35px;
     border: solid green;
